@@ -1,7 +1,9 @@
-FROM fabric8/java-alpine-openjdk8-jdk
+FROM openjdk:11-jre-slim
 
-COPY passwordapi.jar /passwordapi.jar
+WORKDIR /app
+
+COPY passwordapi.jar /app/passwordapi.jar
 
 EXPOSE 8080/tcp
 
-CMD ["/usr/bin/java", "-jar", "/passwordapi.jar"]
+CMD ["java", "-jar", "/app/passwordapi.jar"]
