@@ -10,3 +10,5 @@ que atendió el pedido, se puede usar esto para verificar el correcto balanceo.
 ```
 docker-compose up --scale passwordapi=2
 ```
+
+Luego nos podemos dirigir a `http://localhost:4000`
