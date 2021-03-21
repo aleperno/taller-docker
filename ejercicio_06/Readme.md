@@ -12,3 +12,7 @@ docker-compose up --scale passwordapi=2
 ```
 
 Luego nos podemos dirigir a `http://localhost:4000`
+
+## NOTAS
+
+Utilicé mi propia imagen de PasswordApi [docker-hub link](https://hub.docker.com/r/apernin/passwordapi-js) basada en el código de [nicopaez/passwordapi](https://github.com/nicopaez/passwordapi)

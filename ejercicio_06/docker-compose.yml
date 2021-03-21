@@ -1,9 +1,9 @@
 version: '3'
 services:
     passwordapi:
-        image: apernin/ej_04
+        image: apernin/passwordapi-js
         ports:
-            - "8080"
+            - "3000"
     nginx:
         image: nginx:latest
         volumes:
