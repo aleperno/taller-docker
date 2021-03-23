@@ -1,7 +1,7 @@
 version: '3'
 services:
     passwordapi:
-        image: apernin/passwordapi-js
+        image: nicopaez/password-api
         ports:
             - "3000"
     nginx:
